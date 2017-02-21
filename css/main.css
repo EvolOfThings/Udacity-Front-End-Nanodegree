@@ -62,26 +62,27 @@ main {
 
 header#home {
     text-align: center;
+    margin-top: 20vh;
 }
 
 .primary {
     position: relative;
 }
 
-#home img {
+/*#home img {
     margin-top: 9vh;
     margin-bottom: 15px;
     width: 98%;
     height: 600px;
-}
+}*/
 
 #home h2 {
     padding-bottom: 4vh;
     margin-bottom: 0;
     font-family: "Cutive Mono", monospace;
     color: rgba(221, 221, 221, 0.52);
-    font-size: 2.8vw;
-    position: absolute;
+    font-size: 2.5em;
+    position: relative;
     top: 45%;
     width: 100%
 }
@@ -92,12 +93,12 @@ header h2 .title:not(:first-of-type):before {
 }
 
 h1.myname {
-    position: absolute;
+    position: relative;
     margin: 0;
     top: 30%;
     width: 100%;
     font-family: "Cutive Mono", monospace;
-    font-size: 6.5vw;
+    font-size: 5em;
     color: #b1b3b9;
 }
 
