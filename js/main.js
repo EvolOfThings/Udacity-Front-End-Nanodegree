@@ -4,6 +4,6 @@ function myThing() {
 }
 
 function myThingPuns() {
-    alert("I like angles... To a degree.");
+    alert("I like angles... To a degree. o_0");
     return myThingPuns;
 }
