@@ -80,7 +80,8 @@ header#home {
     padding-bottom: 4vh;
     margin-bottom: 0;
     font-family: "Cutive Mono", monospace;
-    color: rgba(221, 221, 221, 0.52);
+    /*color: rgba(221, 221, 221, 0.52);*/
+    color: #323338;
     font-size: 2.5em;
     position: relative;
     top: 45%;
@@ -99,7 +100,8 @@ h1.myname {
     width: 100%;
     font-family: "Cutive Mono", monospace;
     font-size: 5em;
-    color: #b1b3b9;
+    /*color: #b1b3b9;*/
+    color: #323338;
 }
 
 /* DESCRIPTION */
