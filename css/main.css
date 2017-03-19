@@ -32,28 +32,6 @@ span.nav_name {
 }
 
 
-/* BACKGROUND IMAGE */
-
-/*.background {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-}
-
-.background img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-    filter: opacity(50%);
-}*/
-
 /* HOME PAGE */
 
 main {
@@ -213,7 +191,6 @@ h1.myname {
 .app1.img-responsive,
 .app2.img-responsive,
 .app3.img-responsive {
-    border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.43), 0 6px 20px 0 rgba(0, 0, 0, 0.47);
     filter: blur(0.4px);
 }
