@@ -143,12 +143,6 @@ h1.myname {
     display: inline-block;
 }
 
-.me-list li:first-letter {
-    font-size: larger;
-    color: black;
-}
-
-
 /* PORTFOLIO */
 
 #portfolio {
