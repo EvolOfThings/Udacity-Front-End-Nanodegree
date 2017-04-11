@@ -1,5 +1,5 @@
 function myThing() {
-    alert("You are gonna have to wait a little longer for the AWE factor!!!");
+    alert("You are gonna have to wait a little longer to be AMAZED!!!");
     return myThing;
 }
 
