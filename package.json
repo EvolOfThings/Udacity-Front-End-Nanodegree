@@ -1,17 +1,25 @@
 {
-  "name": "rishad",
+  "name": "personal-portfolio",
   "version": "1.0.0",
-  "description": "Personal portfolio",
+  "description": "portfolio site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ry",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvolOfThings/Udacity-Front-End-Nanodegree.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "rishad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvolOfThings/Udacity-Front-End-Nanodegree/issues"
+  },
+  "homepage": "https://github.com/EvolOfThings/Udacity-Front-End-Nanodegree#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
-
-
-"repository" : {
-   "type" : "git",
-   "url" : "https://github.com/EvolOfThingsnpm/repository.git"
- }
