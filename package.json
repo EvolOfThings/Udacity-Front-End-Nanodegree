@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/EvolOfThings/Udacity-Front-End-Nanodegree#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
