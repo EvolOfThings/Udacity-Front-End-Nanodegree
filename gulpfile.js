@@ -5,8 +5,9 @@ var htmlMin = require('gulp-htmlmin');
 var inlineSource = require('gulp-inline-source');
 var imagemin = require('gulp-imagemin');
 var jshint = require('gulp-jshint');
-var cache = require('gulp-cache');
-var responsive = require('gulp-responsive-images');
+// var cache = require('gulp-cache');
+// var responsive = require('gulp-responsive-images');
+
 
 
 
