@@ -15,7 +15,7 @@ nav#navbar {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #000 !important;
+    color: #FDFEFE !important;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -28,7 +28,7 @@ span.nav_name {
     font-size: 33px;
     text-align: left;
     letter-spacing: 1.2px;
-    color: rgb(15, 21, 35);
+    color: rgba(220, 195, 118, 0.35);
 }
 
 
@@ -59,8 +59,8 @@ header#home {
     padding-bottom: 4vh;
     margin-bottom: 0;
     font-family: "Cutive Mono", monospace;
-    /*color: rgba(221, 221, 221, 0.52);*/
-    color: #323338;
+    color: rgba(220, 195, 118, 0.35);
+/*    color: #323338;*/
     font-size: 2.5em;
     position: relative;
     top: 45%;
@@ -80,7 +80,8 @@ h1.myname {
     font-family: "Cutive Mono", monospace;
     font-size: 5em;
     /*color: #b1b3b9;*/
-    color: #323338;
+/*    color: #323338;*/
+    color: rgba(220, 195, 118, 0.35);
 }
 
 /* DESCRIPTION */
@@ -112,13 +113,10 @@ h1.myname {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
-    color: #2b2f2e;
+    color: rgba(220, 195, 118, 0.35);
+/*    color: #2b2f2e;*/
 }
 
-.aboutme-title span {
-    font-size: 15px;
-    color: rgba(43, 47, 46, 0.84);
-}
 
 .aboutme {
     text-align: center;
@@ -132,11 +130,11 @@ h1.myname {
 }
 
 .aboutme .me-list a {
-    color: rgba(0, 0, 0, 0.67);
+    color: rgba(220, 195, 118, 0.35);
 }
 
 .aboutme .me-list a:hover {
-    color: #aab1b3;
+    color: #FDFEFE;
 }
 
 .me-list li {
@@ -161,6 +159,7 @@ h1.myname {
     text-align: left;
     position: relative;
     font-weight: 600;
+    color: rgba(220, 195, 118, 0.35);
 }
 
 .app_name {
@@ -170,10 +169,10 @@ h1.myname {
 }
 
 .project-list .project-item a {
-    color: #3a4344;
+    color: rgba(220, 195, 118, 0.35);
 }
 .project-list .project-item a:hover {
-    color: #aab1b3;
+    color: #FDFEFE;
 }
 
 .project-item {
@@ -213,6 +212,7 @@ a:focus {
     text-align: center;
     margin-bottom: auto;
     position: relative;
+    color: rgba(220, 195, 118, 0.35);
 }
 
 .msg-me-title a {
@@ -241,6 +241,7 @@ img.WhatsAppDP2 {
     text-align: center;
     font-family: "Kranky", cursive;
     font-size: 3.85rem;
+    color: rgba(220, 195, 118, 0.35);
 }
 
 .link-social li {
@@ -254,11 +255,11 @@ img.WhatsAppDP2 {
 }
 
 .link-social li a {
-    color: rgba(4, 10, 10, 0.35);
+    color: rgba(220, 195, 118, 0.35);
 }
 
 .link-social li a:hover {
-    color: #aab1b3;
+    color: #f4fdff;
 }
 
 .link-social {
@@ -283,7 +284,7 @@ i.fa.fa-envelope {
 }
 
 .dnd {
-    color: rgba(220, 195, 118, 0.35);
+    color: #aab1b3;
     text-align: center;
     padding-right: 10px;
     font-size: 14px;
