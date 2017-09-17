@@ -233,8 +233,8 @@ section.container.footy {
 }
 
 img.WhatsAppDP2 {
-    border-radius: 20px;
-    border: 1.5px solid #1f2d2b;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .list-title {
@@ -271,7 +271,7 @@ img.WhatsAppDP2 {
 
 i.fa {
     text-decoration: none;
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 span i.fa {
@@ -297,6 +297,12 @@ i.fa.fa-envelope {
     #navmainbar {
         float: right;
     }
+/*   , .imageWidth {
+        width: 25%;
+    },
+    .list-icons {
+        width: 75%;
+    }*/
 }
 
 @media screen and (max-width: 767px) {
