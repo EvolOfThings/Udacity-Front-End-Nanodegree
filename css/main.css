@@ -68,10 +68,12 @@ header#home {
     width: 100%
 }
 
-header h2 .title:not(:first-of-type):before {
+/*For multiple titles uncomment the following*/
+
+/*header h2 .title:not(:first-of-type):before {
     content: "•";
     padding-right: 0.5em;
-}
+}*/
 
 h1.myname {
     position: relative;
@@ -133,6 +135,7 @@ h1.myname {
 .aboutme .me-list a {
     color: rgba(220, 195, 118, 0.35);
 }
+
 
 .aboutme .me-list a:hover {
     color: #FDFEFE;
@@ -285,7 +288,7 @@ i.fa.fa-envelope {
 }
 
 .dnd {
-    color: #aab1b3;
+    color: #907A06;
     text-align: center;
     padding-right: 10px;
     font-size: 14px;
