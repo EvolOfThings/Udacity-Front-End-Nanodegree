@@ -106,44 +106,67 @@ h1.myname {
     margin: 0 auto;
     padding: 10px 15px 30px 15px;
     position: relative;
-    border-radius: 40px;
+/*    border-radius: 40px;*/
     -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
     -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
 }
 
-.aboutme-title {
+/*.aboutme-title {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
     color: rgba(220, 195, 118, 0.35);
-/*    color: #2b2f2e;*/
+   color: #2b2f2e;
 }
+*/
 
-
-.aboutme {
+/*.aboutme {
     text-align: center;
     line-height: 1.7;
     padding-top: 5px;
 }
-
-.me-list {
+*/
+/*.me-list {
     list-style-type: none;
     font-size: 21px;
-}
+}*/
 
-.aboutme .me-list a {
+/*.me-list a {
     color: rgba(220, 195, 118, 0.35);
-}
+}*/
 
 
-.aboutme .me-list a:hover {
+/*.aboutme .me-list a:hover {
     color: #FDFEFE;
 }
 
 .me-list li {
     display: inline-block;
+}*/
+
+.skillTitle {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgba(220, 195, 118, 0.35);
 }
+
+.skillSet {
+    text-align: center;
+    list-style-type: none;
+    font-size: 21px;
+    color: rgba(220, 195, 118, 0.35);
+}
+
+.skillSet li {
+    display: inline-block;
+}
+
+.skillSet li:not(:first-of-type):before {
+    content: "•";
+    padding-right: 0.5em;
+}*/
 
 /* PORTFOLIO */
 
