@@ -170,15 +170,15 @@ h1.myname {
 
 /* PORTFOLIO */
 
-#portfolio {
+/*#portfolio {
     min-height: 50vh;
     padding: 30px 0 30px 0;
-}
+}*/
 
-.container.portfolio-fluid {
+/*.container.portfolio-fluid {
     padding: 15px;
 }
-
+*/
 
 .project-header {
     font-family: "Poiret One", cursive;
@@ -195,18 +195,21 @@ h1.myname {
     font-size: 28px;
 }
 
-.project-list .project-item a {
+.app_name a {
     color: rgba(220, 195, 118, 0.35);
 }
-.project-list .project-item a:hover {
+.app_name a:hover {
     color: #FDFEFE;
 }
 
-.project-item {
-    margin: 0 !important;
-    height: auto;
-    padding: 15px;
+#project-item {
+    margin: 0;
+    padding: 0;
+    border: 0;
+/*    position: relative;*/
 }
+
+
 
 .app1.img-responsive,
 .app2.img-responsive,
