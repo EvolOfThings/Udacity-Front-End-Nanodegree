@@ -75,7 +75,7 @@ header#home {
     padding-right: 0.5em;
 }*/
 
-h1.myname {
+.myname {
     position: relative;
     margin: 0;
     top: 30%;
@@ -99,7 +99,7 @@ h1.myname {
     word-spacing: 4px;
 }
 
-.container.box {
+.box {
     width: 90%;
     height: auto;
     top: 10px;
@@ -166,7 +166,7 @@ h1.myname {
 .skillSet li:not(:first-of-type):before {
     content: "•";
     padding-right: 0.5em;
-}*/
+}
 
 /* PORTFOLIO */
 
@@ -180,13 +180,15 @@ h1.myname {
 }
 */
 
-.project-header {
+.projectHeader {
     font-family: "Poiret One", cursive;
     font-size: 3.5rem;
-    text-align: left;
+    text-align: center;
     position: relative;
     font-weight: 600;
     color: rgba(220, 195, 118, 0.35);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .app_name {
