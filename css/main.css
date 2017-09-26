@@ -15,7 +15,9 @@ nav#navbar {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #B3B3B3 !important;
+    color: #000000;
+    font-family: "Kranky";
+    font-size: 23px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -28,7 +30,7 @@ span.nav_name {
     font-size: 33px;
     text-align: left;
     letter-spacing: 1.2px;
-    color: #B3B3B3;
+    color: #000000;
 }
 
 
