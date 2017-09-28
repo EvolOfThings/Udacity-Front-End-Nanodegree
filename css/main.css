@@ -229,9 +229,22 @@ a:focus {
 }
 #resume {
     text-align: center;
+    margin: 10px;
+    padding: 10px 0 10px 0;
 }
 
 
+.btn-resume {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    font-family: monospace;
+}
+
+
+.btn-resume:hover {
+    background-color: #737171;
+}
 
 
 /* FOOTER */
