@@ -44,7 +44,7 @@ main {
 header#home {
     text-align: center;
     margin-top: 20vh;
-    min-height: 50vh;
+    min-height: 30vh;
 }
 
 .primary {
@@ -93,7 +93,6 @@ header#home {
 
 
 .box {
-    width: 90%;
     height: auto;
     top: 10px;
     margin: 0 auto;
@@ -105,12 +104,18 @@ header#home {
     box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
 }
 
-/*.aboutme-title {
+
+#description{
+    min-height: 40vh;
+    margin: 30px 0 30px 0;
+    padding: 25px 0 25px 0;
+}
+.aboutme-title {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
     color: rgba(220, 195, 118, 0.35);
-   /*color: #2b2f2e;*/
+ /*  color: #2b2f2e;*/
 }
 
 
@@ -134,11 +139,17 @@ header#home {
     color: #FDFEFE;
 }
 
+.me-list li:not(:first-of-type):before {
+    content: "-";
+    padding-right: 0.5em;
+}
+
 .me-list li {
     display: inline-block;
-}*/
+    color: red;
+}
 
-/*/ Skills */
+/* Skills */
 
 #skills {
     font-family: "Quicksand", sans-serif;
@@ -172,7 +183,7 @@ header#home {
     padding-right: 0.5em;
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO
 
 /*#portfolio {
     min-height: 50vh;
