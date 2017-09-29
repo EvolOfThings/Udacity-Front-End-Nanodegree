@@ -92,15 +92,6 @@ header#home {
 /* DESCRIPTION */
 
 
-#description {
-    font-family: "Quicksand", sans-serif;
-    color: #252d2b;
-    font-size: 20px;
-    min-height: 40vh;
-    padding: 10px 10px 30px 10px;
-    word-spacing: 4px;
-}
-
 .box {
     width: 90%;
     height: auto;
@@ -119,33 +110,44 @@ header#home {
     font-size: 26px;
     font-weight: 500;
     color: rgba(220, 195, 118, 0.35);
-   color: #2b2f2e;
+   /*color: #2b2f2e;*/
 }
-*/
 
-/*.aboutme {
+
+.aboutme {
     text-align: center;
     line-height: 1.7;
     padding-top: 5px;
 }
-*/
-/*.me-list {
+
+.me-list {
     list-style-type: none;
     font-size: 21px;
-}*/
+}
 
-/*.me-list a {
+.me-list a {
     color: rgba(220, 195, 118, 0.35);
-}*/
+}
 
 
-/*.aboutme .me-list a:hover {
+.aboutme .me-list a:hover {
     color: #FDFEFE;
 }
 
 .me-list li {
     display: inline-block;
 }*/
+
+/*/ Skills */
+
+#skills {
+    font-family: "Quicksand", sans-serif;
+    color: #252d2b;
+    font-size: 20px;
+    min-height: 40vh;
+    padding: 10px 10px 30px 10px;
+    word-spacing: 4px;
+}
 
 .skillTitle {
     text-align: center;
