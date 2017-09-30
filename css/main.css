@@ -17,7 +17,7 @@ nav#navbar {
 .navbar-inverse .navbar-nav>li>a {
     color: #000000;
     font-family: "Kranky";
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -257,6 +257,12 @@ a:focus {
 
 .btn-resume:hover {
     background-color: #737171;
+}
+
+/*Background*/
+
+.margin-b-40{
+    margin-bottom: 40px !important;
 }
 
 
