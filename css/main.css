@@ -378,6 +378,12 @@ i.fa.fa-envelope {
     font-size: 14px;
 }
 
+/*jQuery classes*/
+
+.darker-theme {
+    background-color: #928C98;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 768px) {
