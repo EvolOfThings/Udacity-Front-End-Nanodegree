@@ -288,6 +288,19 @@ a:focus {
 }
 
 
+/*// Experimenting*/
+.projectRow {
+    border: 1px solid;
+}
+
+.see_center {
+    text-align: center;
+}
+.more_projects {
+    display: none;
+}
+
+
 /* FOOTER */
 
 .msg-me {
