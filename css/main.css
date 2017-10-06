@@ -55,12 +55,16 @@ main {
     padding: 100px 70px;
 }
 
+header {
+    background: url(../images/app2.jpg);
+    background-size: cover;
+}
 
 #home {
     text-align: center;
     padding-top: 20vh;
     min-height: 30vh;
-    background-color: #2a2a3f;
+/*    background-color: #2a2a3f;*/
 }
 
 .primary {
@@ -123,8 +127,9 @@ main {
 
 #description{
     min-height: 40vh;
-    padding: 25px 0 25px 0;
-    background-color: #2a2a3f;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+/*   background-color: #2a2a3f; */
 }
 .aboutme-title {
     text-align: center;
@@ -241,7 +246,6 @@ main {
     border: 0;
 /*    position: relative;*/
 }
-
 
 
 .app1.img-responsive,
@@ -404,7 +408,7 @@ i.fa.fa-envelope {
     }
     span.sub_title {
         font-size: 20px;
-        font-weight: 650;
+/*        font-weight: 650;*/
         display: block;
         padding: 0;
         margin: 0;
