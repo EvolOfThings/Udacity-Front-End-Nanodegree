@@ -1,1 +1,1 @@
-$("#education").hover(function(){$(this).addClass("darker-theme")},function(){$(this).removeClass("darker-theme")});
+$("#education").hover(function(){$(this).addClass("darker-theme")},function(){$(this).removeClass("darker-theme")}),$(function(){$("a.see_more").click(function(e){e.preventDefault(),$(this).hide(),$(this).parents(".item").find(".more_projects").show()})});
