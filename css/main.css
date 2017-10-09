@@ -159,7 +159,7 @@ header {
 
 
 .aboutme .me-list a:hover {
-    color: #FDFEFE;
+    color: #da0e0e;
 }
 
 .me-list li:not(:first-of-type):before {
@@ -171,6 +171,17 @@ header {
     display: inline-block;
     color: red;
 }
+
+.key {
+    transition: all 0.07s;
+}
+
+.over-key {
+    transform: scale(1.1);
+    border-color: #da0e0e;
+    text-shadow: 0 0 10px #da0e0e;
+}
+
 
 /* Skills */
 
