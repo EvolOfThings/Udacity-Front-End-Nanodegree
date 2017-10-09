@@ -1,5 +1,19 @@
 
 
+
+//Intro list effect
+
+$('.key').hover(
+  function(){
+    $(this).addClass('over-key');
+  }, function(){
+    $(this).removeClass('over-key');
+  });
+
+
+
+// Hovering effect for education
+
 $('#education').hover(
   function() {
     $(this).addClass('darker-theme');
@@ -9,6 +23,8 @@ $('#education').hover(
 );
 
 
+
+// To see more projects
 
 $(function(){ /* to make sure the script runs after page load */
 
