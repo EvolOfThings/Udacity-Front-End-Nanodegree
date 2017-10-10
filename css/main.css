@@ -58,8 +58,9 @@ main {
 
 /*Fix the height of the background image*/
 header {
-    background: url(../images/app2.jpg);
+    background: url(../images/app2.JPG);
     background-size: cover;
+    filter: blur(50%);
 }
 
 #home {
