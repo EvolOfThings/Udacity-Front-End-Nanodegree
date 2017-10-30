@@ -24,6 +24,8 @@ $('#education').hover(
 
 
 
+
+
 // To see more projects
 
 // $(function(){ /* to make sure the script runs after page load */
