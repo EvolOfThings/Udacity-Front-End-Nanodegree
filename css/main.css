@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: rgba(13, 22, 49, 0.98) !important;
+    background: linear-gradient(160deg, #0f403b 10%, #aa7ecd 100%);
  }
 
 /* NAVBAR */
@@ -32,7 +32,7 @@ nav#navbar {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #000000;
+    color: black;
     font-family: "Kranky";
     font-size: 20px;
 }
@@ -88,8 +88,8 @@ header {
     padding-bottom: 4vh;
     margin-bottom: 0;
     font-family: "Cutive Mono", monospace;
-    color: rgba(220, 195, 118, 0.35);
-/*    color: #323338;*/
+/*    color: rgba(220, 195, 118, 0.35);*/
+    color: black;
     font-size: 2.5em;
     position: relative;
     top: 45%;
@@ -110,9 +110,9 @@ header {
     width: 100%;
     font-family: "Cutive Mono", monospace;
     font-size: 5em;
-    /*color: #b1b3b9;*/
+    color: black;
 /*    color: #323338;*/
-    color: rgba(220, 195, 118, 0.35);
+/*    color: rgba(220, 195, 118, 0.35);*/
 }
 
 /* DESCRIPTION */
@@ -141,8 +141,9 @@ header {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
-    color: rgba(220, 195, 118, 0.35);
+/*    color: rgba(220, 195, 118, 0.35);*/
  /*  color: #2b2f2e;*/
+ color: black;
 }
 
 
@@ -158,7 +159,8 @@ header {
 }
 
 .me-list a {
-    color: rgba(220, 195, 118, 0.35);
+    /*color: rgba(220, 195, 118, 0.35);*/
+    color: black;
 }
 
 
