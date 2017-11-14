@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Rishad Yamnoor | Front-end Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rishad Yamnoor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="images/favicon.ico">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CKranky%7CPoiret+One%7CQuicksand%7CVT323" rel="stylesheet">
@@ -26,7 +28,9 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                    <a href="#" class="navbar-brand"><span class="nav_name">Rishad</span></a>
+<!--                     <a href="#" class="navbar-brand">
+                        <img class="myLogo" src="images/Artboard-1.png" alt="author-logo">
+                    </a> -->
                     <!-- TODO: svg logo to be added -->
                 </div>
                 <div class="collapse navbar-collapse" id="navmainbar" aria-expanded="false">
@@ -43,13 +47,19 @@
     </section>
 
     <header id="home">
-        <div class="primary">
-         <!-- <img src="#" alt="home-page background">  -->
-            <!-- TODO: big sized svg logo to be added-->
-            <h1 class="myname"> Rishad Yamnoor </h1>
-            <h2>    <span class="title">Front End Developer</span>
-                <!-- <span class="title">UI Designer</span> -->
-            </h2>
+        <div class="primary row">
+
+            <div class="col-md-4 hidden-sm-down">
+             <img class="myLogo" src="images/Artboard-1.png" alt="author-logo">
+            </div>
+
+            <div class="col-md-8">
+                <h1 class="myname"> Rishad Yamnoor </h1>
+                <h2>    <span class="title">Front End Developer</span>
+                    <!-- <span class="title">UI Designer</span> -->
+                </h2>
+            </div>
+
         </div>
 
         <section id="description" >
@@ -99,56 +109,79 @@
 
     <section id="portfolio">
         <div class="container">
-
+            <div class="row project-list portfolio-fluid margin-b-40 ">
                 <h2 class="projectHeader">Featured Work</h2>
 
-            <!-- Project List -->
-            <div class="row project-list portfolio-fluid margin-b-40 ">
+                    <!-- Project List -->
+                <div class="row">
                    <!-- project-1 -->
-                <div id="project-item" class="project-1 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <figure>
-                        <a href="https://evolofthings.github.io/Udacity-Front-End-Nanodegree/#" target="_blank"><img class="app1 img-responsive" src="images/app1.jpg"  alt="App1"></a>
-                    </figure>
-                    <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/Udacity-Front-End-Nanodegree/#">Portfolio</a></h3>
-                </div>
+                    <div class="project col-xs-12 col-sm-4">
+                            <a class="app1" href="https://evolofthings.github.io/Udacity-Front-End-Nanodegree/#" target="_blank">
+                                <img class="img-responsive" src="images/app1.jpg"  alt="App1">
+                            </a>
+                        <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/Udacity-Front-End-Nanodegree/#">Portfolio</a></h3>
+                        <span class="project_background"></span>
+
+                            <div class="project_description">
+                                <h4 class="project_title">Personal Website</h4>
+
+                                <small class="project_caption">
+                                    Showcase of the projects I have worked on.  <br>Including my own site.
+                                </small>
+
+                                <small class="project_link">Visit</small>
+                            </div>
+                    </div>
 
 
-                    <!-- project-2 -->
-                <div id="project-item"  class="project-3 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <figure>
-                        <a href="https://evolofthings.github.io/frontend-nanodegree-arcade-game/" target="_blank"><img class="app2 img-responsive" src="images/app2.JPG" alt="App2"></a>
-                    </figure>
-                        <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/frontend-nanodegree-arcade-game/">Arcade Game</a></h3>
-
+                        <!-- project-2 -->
+                    <div class="project col-xs-12 col-sm-8">
+                            <a href="https://evolofthings.github.io/frontend-nanodegree-arcade-game/" target="_blank">
+                                <img class="app2 img-responsive" src="images/app2.JPG" alt="App2">
+                            </a>
+                            <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/frontend-nanodegree-arcade-game/">Arcade Game</a></h3>
+                    </div>
                 </div>
 
                 <!-- project-3 -->
-                <div id="project-item"  class="project-4 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <figure>
-                        <a href="https://evolofthings.github.io/Pixel-Art-Maker/" target="_blank"><img class="app3 img-responsive" src="images/app3.jpg"  alt="App3"></a>
-                    </figure>
-                    <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/Pixel-Art-Maker/">Pixel Art Maker</a></h3>
+                <div class="row">
+                    <div class="project col-xs-12 col-sm-4">
+                            <a href="https://evolofthings.github.io/Pixel-Art-Maker/" target="_blank">
+                                <img class="app3 img-responsive" src="images/app3.jpg"  alt="App3">
+                            </a>
+                        <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/Pixel-Art-Maker/">Pixel Art Maker</a></h3>
+                    </div>
+                    <!-- project-4 -->
+                    <div class="project col-xs-12 col-sm-4">
+                            <a href="https://evolofthings.github.io/Memory-Game/" target="_blank">
+                                <img class="app4 img-responsive" src="images/app2.JPG"  alt="App4">
+                            </a>
+                        <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/Memory-Game/">Memory Game</a></h3>
+                    </div>
+                    <!-- project-5 -->
+                    <div class="project col-xs-12 col-sm-4">
+                            <a href="https://github.com/evolofthings" target="_blank">
+                                <img class="app5 img-responsive" src="images/app1.jpg" alt="App5">
+                            </a>
+                            <h3 class="app_name text-capitalize"><a href="https://github.com/evolofthings">Feed Reader</a></h3>
+                    </div>
                 </div>
-                <!-- project-4 -->
-                <div id="project-item"  class="project-4 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <figure>
-                        <a href="https://evolofthings.github.io/Memory-Game/" target="_blank"><img class="app4 img-responsive" src="images/app2.JPG"  alt="App4"></a>
-                    </figure>
-                    <h3 class="app_name text-capitalize"><a href="https://evolofthings.github.io/Memory-Game/">Memory Game</a></h3>
-                </div>
-                <!-- project-5 -->
-                <div id="project-item"  class="project-6 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <figure>
-                        <a href="https://github.com/evolofthings" target="_blank"><img class="app5 img-responsive" src="images/app1.jpg" alt="App5"></a>
-                    </figure>
-                        <h3 class="app_name text-capitalize"><a href="https://github.com/evolofthings">Feed Reader</a></h3>
-                </div>
+
                 <!-- project-6 -->
-                <div id="project-item"  class="project-7 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <figure>
-                        <a href="https://github.com/evolofthings" target="_blank"><img class="app6 img-responsive" src="images/app3.JPG" alt="App6"></a>
-                    </figure>
-                        <h3 class="app_name text-capitalize"><a href="https://github.com/evolofthings">Neighborhood Map</a></h3>
+                <div class="row">
+                    <div class="project col-xs-12 col-sm-6">
+                            <a href="https://github.com/evolofthings" target="_blank">
+                                <img class="app6 img-responsive" src="images/app3.JPG" alt="App6">
+                            </a>
+                            <h3 class="app_name text-capitalize"><a href="https://github.com/evolofthings">Neighborhood Map</a></h3>
+                    </div>
+                    <!-- project-7 -->
+                    <div class="project col-xs-12 col-sm-6">
+                            <a href="https://github.com/evolofthings" target="_blank">
+                                <img class="app5 img-responsive" src="images/app1.jpg" alt="App5">
+                            </a>
+                            <h3 class="app_name text-capitalize"><a href="https://github.com/evolofthings">Feed Reader</a></h3>
+                    </div>
                 </div>
             </div>
 
