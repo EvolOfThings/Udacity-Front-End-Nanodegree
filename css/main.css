@@ -42,13 +42,6 @@ nav#navbar {
     color: rgba(220, 195, 118, 0.35) !important;
 }
 
-span.nav_name {
-    font-family: "Kranky", cursive;
-    font-size: 33px;
-    text-align: left;
-    letter-spacing: 1.2px;
-    color: #000000;
-}
 
 
 /* HOME PAGE */
@@ -236,6 +229,57 @@ header {
 }
 */
 
+.project {
+    display: flex;
+    position: relative;
+/*    align-items: center;
+    justify-content: center;*/
+    /*text-align: center;*/
+    height: 33.3vw;
+    max-height: 235px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    margin: 0 auto .625rem
+}
+
+.project:before {
+    content: '';
+    display: inline-block;
+}
+
+.project:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6
+}
+
+.project:hover * {
+    color: #fff
+}
+
+/*@media (min-width: 544px) {
+    .project:hover  {
+        transform:translateX(0);
+        transition: 500ms transform ease-in-out
+    }
+}
+
+@media (min-width: 544px) {
+    .project:hover  {
+        opacity:1;
+        transition: 500ms opacity ease-in-out 250ms
+    }
+}*/
+
+/*.project_background:not(:hover) + .project_description{
+    display: none;
+}
+*/
 .projectHeader {
     font-family: "Poiret One", cursive;
     font-size: 3.5rem;
@@ -260,20 +304,13 @@ header {
     color: #FDFEFE;
 }
 
-#project-item {
+/*#project-item {
     margin: 0;
     padding: 0;
     border: 0;
-/*    position: relative;*/
 }
+*/
 
-
-.app1.img-responsive,
-.app2.img-responsive,
-.app3.img-responsive {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.43), 0 6px 20px 0 rgba(0, 0, 0, 0.47);
-    filter: blur(0.4px);
-}
 
 a:hover,
 a:focus {
