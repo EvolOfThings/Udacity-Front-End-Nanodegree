@@ -42,6 +42,9 @@ nav#navbar {
     color: rgba(220, 195, 118, 0.35) !important;
 }
 
+nav .navbar-brand {
+    padding: 10px;
+}
 
 
 /* HOME PAGE */
@@ -342,6 +345,23 @@ a:focus {
     margin-bottom: 40px !important;
 }
 
+.for-pun:not(:hover) + .pun{
+    display: none;
+}
+
+/*on hover education section, display emoji*/
+
+/*div#education:hover + span.pun {
+    display: block;
+}*/
+
+/*@media screen and (min-width: 992px) {
+
+    #education:hover + span.pun {
+        display: block;
+    }
+}
+*/
 
 /*// Experimenting*/
 .projectRow {
@@ -465,21 +485,17 @@ i.fa.fa-envelope {
 
 /* Media queries */
 
-@media screen and (min-width: 768px) {
-    #navmainbar {
-        float: right;
-    }
-/*   , .imageWidth {
+/*@media screen and (min-width: 768px) {
+
+   , .imageWidth {
         width: 25%;
     },
     .list-icons {
         width: 75%;
-    }*/
-}
+    }
+}*/
 
 @media screen and (max-width: 767px) {
-    a.navbar-brand {
-        padding: 15px 5px 15px 15px;
     }
     span.sub_title {
         font-size: 20px;
@@ -489,6 +505,7 @@ i.fa.fa-envelope {
         margin: 0;
     }
 }
+
 
 @media screen and (max-width: 399px) {
     .app1, .app2, .app3, .app4, .app5, .app6 {
