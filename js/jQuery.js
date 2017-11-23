@@ -22,6 +22,7 @@ $('#education').hover(
   }
 );
 
+// on hover on education add i tag to span class: pun to display
 
 
 
