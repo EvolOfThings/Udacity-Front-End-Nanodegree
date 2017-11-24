@@ -24,6 +24,18 @@ $('#education').hover(
 
 // on hover on education add i tag to span class: pun to display
 
+let pun = '<span class="getIt"> (Get it?) <i class="em em-wink"></i></span>';
+
+
+$('#education').hover(
+  function() {
+    $(this).find('.for-pun').append(pun);
+  }, function() {
+    $(".getIt").remove();
+  }
+);
+
+
 
 
 
