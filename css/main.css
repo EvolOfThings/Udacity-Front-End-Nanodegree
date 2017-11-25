@@ -110,13 +110,31 @@ header {
     height: 600px;
 }*/
 
-#home h2 {
+.myLogo {
+    margin-bottom: 15px;
+}
+
+
+.myname {
+    position: relative;
+    margin: 0;
+    top: 30%;
+    width: 100%;
+    font-family: "Cutive Mono", monospace;
+    font-size: 4.5em;
+/*    font-size: 7vw;*/
+    color: black;
+/*    color: #323338;*/
+/*    color: rgba(220, 195, 118, 0.35);*/
+}
+
+.sub-title {
     padding-bottom: 4vh;
     margin-bottom: 0;
     font-family: "Cutive Mono", monospace;
 /*    color: rgba(220, 195, 118, 0.35);*/
     color: black;
-    font-size: 2.5em;
+    font-size: 3.2rem;
     position: relative;
     top: 45%;
     width: 100%
@@ -129,18 +147,6 @@ header {
     padding-right: 0.5em;
 }*/
 
-.myname {
-    position: relative;
-    margin: 0;
-    top: 30%;
-    width: 100%;
-    font-family: "Cutive Mono", monospace;
-    font-size: 5em;
-    font-size: 7vw;
-    color: black;
-/*    color: #323338;*/
-/*    color: rgba(220, 195, 118, 0.35);*/
-}
 
 /* DESCRIPTION */
 
@@ -392,6 +398,10 @@ span.getIt {
     border-radius: 10px;
 }
 
+#education a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
 
 /* FOOTER */
 
@@ -502,6 +512,12 @@ i.fa.fa-envelope:hover {
 .dnd a {
     text-decoration: none;
     color: #6c5014;
+}
+
+.dnd p {
+    margin: 0;
+    padding-bottom: 5px;
+    -webkit-font-smoothing: antialiased;
 }
 
 
