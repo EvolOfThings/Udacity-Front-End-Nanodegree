@@ -46,6 +46,29 @@ nav .navbar-brand {
     padding: 10px;
 }
 
+.nav.navbar-nav {
+    float: none;
+    display: flex;
+}
+
+.nav.navbar-nav>li {
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.brand-container a>img {
+    margin: auto;
+    width: 100%;
+}
+
+.brand-container a {
+    padding: 5px 0!important;
+    margin: 0!important;
+    }
+
 
 /* HOME PAGE */
 
@@ -233,12 +256,13 @@ header {
 }
 */
 
-.project {
+
+/*.project {
     display: flex;
     position: relative;
-/*    align-items: center;
-    justify-content: center;*/
-    /*text-align: center;*/
+//   align-items: center;
+    justify-content: center;
+    text-align: center;//
     height: 33.3vw;
     max-height: 235px;
     width: 100%;
@@ -264,26 +288,8 @@ header {
 
 .project:hover * {
     color: #fff
-}
-
-/*@media (min-width: 544px) {
-    .project:hover  {
-        transform:translateX(0);
-        transition: 500ms transform ease-in-out
-    }
-}
-
-@media (min-width: 544px) {
-    .project:hover  {
-        opacity:1;
-        transition: 500ms opacity ease-in-out 250ms
-    }
 }*/
 
-/*.project_background:not(:hover) + .project_description{
-    display: none;
-}
-*/
 .projectHeader {
     font-family: "Poiret One", cursive;
     font-size: 3.5rem;
@@ -307,14 +313,6 @@ header {
 .app_name a:hover {
     color: #FDFEFE;
 }
-
-/*#project-item {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-*/
-
 
 a:hover,
 a:focus {
@@ -340,50 +338,16 @@ a:focus {
     background-color: #737171;
 }
 
+
 /*Background*/
 
 .margin-b-40{
     margin-bottom: 40px !important;
 }
 
-/*.pun{
-    display: none;
-}
-
-.for-pun:hover + .pun {
-    display: block;
-}*/
-
 span.getIt {
     font-size: 20px;
     color: red;
-}
-
-
-/*on hover education section, display emoji*/
-
-/*div#education:hover + span.pun {
-    display: block;
-}*/
-
-/*@media screen and (min-width: 992px) {
-
-    #education:hover + span.pun {
-        display: block;
-    }
-}
-*/
-
-/*// Experimenting*/
-.projectRow {
-    border: 1px solid;
-}
-
-.see_center {
-    text-align: center;
-}
-.more_projects {
-    display: none;
 }
 
 #education {
@@ -496,24 +460,12 @@ i.fa.fa-envelope {
 
 /* Media queries */
 
-
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     #navmainbar {
     float: right;
     }
-}
-
-
-
-/*@media screen and (min-width: 768px) {
-
-   , .imageWidth {
-        width: 25%;
-    },
-    .list-icons {
-        width: 75%;
-    }
 }*/
+
 
 @media screen and (max-width: 767px) {
     }
