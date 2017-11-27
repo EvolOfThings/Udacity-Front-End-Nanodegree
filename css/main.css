@@ -257,51 +257,7 @@ header {
     padding-right: 0.5em;
 }
 
-/* PORTFOLIO
-
-/*#portfolio {
-    min-height: 50vh;
-    padding: 30px 0 30px 0;
-}*/
-
-/*.container.portfolio-fluid {
-    padding: 15px;
-}
-*/
-
-
-/*.project {
-    display: flex;
-    position: relative;
-//   align-items: center;
-    justify-content: center;
-    text-align: center;//
-    height: 33.3vw;
-    max-height: 235px;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto 10px;
-    margin: 0 auto .625rem
-}
-
-.project:before {
-    content: '';
-    display: inline-block;
-}
-
-.project:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.6
-}
-
-.project:hover * {
-    color: #fff
-}*/
+/* PORTFOLIO */
 
 .project {
     position: relative;
@@ -316,7 +272,7 @@ header {
   height: 100%;
   overflow: hidden;
   width: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   background-color: #000000;
   opacity: 0.8;
 }
@@ -330,6 +286,7 @@ header {
     white-space: nowrap;
     overflow: hidden;
     color: red;
+    line-height: 2;
     position: absolute;
     top: 8%;
     left: 50%;
@@ -340,12 +297,34 @@ header {
     overflow: hidden;
     color: red;
     position: absolute;
-    white-space: nowrap;
+    white-space: pre-line;
     text-align: center;
-    top: 45%;
-    left: 30%;
-    transform: translate(-20%, -20%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+    .project_caption {
+    font-size: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .project_title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .project_link a{
+        font-size: 1.7rem;
+    }
+}
+
+
+
 
 .project_link {
     white-space: nowrap;
@@ -357,19 +336,20 @@ header {
     border: 2px solid black;
     padding: 7px 15px;
     padding: .4375rem .9375rem;
-    transform: translate(-80%, -80%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .project_link a {
     color: black;
 }
 
-/*@media all and (max-width: 500px) {
-  .project-row {
-     On small screens, we are no longer using row direction but column
-    flex-direction: column;
-  }
-}*/
+.app_name {
+    text-align: center;
+}
+/*Media queries for overlay for smaller devices*/
+
+
 
 .projectHeader {
     font-family: "Poiret One", cursive;
