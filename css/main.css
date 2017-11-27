@@ -303,6 +303,74 @@ header {
     color: #fff
 }*/
 
+.project {
+    position: relative;
+}
+
+
+.project-description {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 0;
+  transition: .5s ease;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.project:hover .project-description {
+    width: 100%;
+    left: 0;
+}
+
+.project_title {
+    white-space: nowrap;
+    overflow: hidden;
+    color: red;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project_caption {
+    overflow: hidden;
+    color: red;
+    position: absolute;
+    white-space: nowrap;
+    text-align: center;
+    top: 45%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+}
+
+.project_link {
+    white-space: nowrap;
+    overflow: hidden;
+    color: red;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    border: 2px solid black;
+    padding: 7px 15px;
+    padding: .4375rem .9375rem;
+    transform: translate(-80%, -80%);
+}
+
+.project_link a {
+    color: black;
+}
+
+/*@media all and (max-width: 500px) {
+  .project-row {
+     On small screens, we are no longer using row direction but column
+    flex-direction: column;
+  }
+}*/
+
 .projectHeader {
     font-family: "Poiret One", cursive;
     font-size: 3.5rem;
