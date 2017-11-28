@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="153px" viewBox="0 0 162 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1.3.2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1.3.2" stroke="#4C442B">
+            <g id="Group-2" transform="translate(7.000000, 7.000000)">
+                <g id="Group-10">
+                    <path d="M56.0807175,138 L56.0807175,81.9872472" id="Line-4" stroke-width="13" stroke-linecap="square"></path>
+                    <polyline id="Path" stroke-width="5" stroke-linecap="square" points="81.632287 95.1262136 113.268967 61.5001295 81.632287 27.4660194"></polyline>
+                    <path d="M98.6390247,138 L105.70784,138 C133.104598,127.592171 148,101.005548 148,71.0121051 C148,31.7932024 114.869071,0 74,0 C33.1309285,0 0,31.7932024 0,71.0121051 C0,84.2846394 3.00317117,103.98084 12.6557218,116.506892 C18.3750782,123.928863 25.8811845,130.101331 32.3108634,133.899284 C36.7325454,136.511131 39.864654,137.162369 43.1174869,138 C47.2822953,138 51.3171238,138 55.2219723,138" id="Combined-Shape" stroke-width="13"></path>
+                </g>
+                <g id="Group" transform="translate(37.829596, 56.271845)" stroke-linecap="square">
+                    <path d="M19.9103139,47.5631068 L60.0627803,80.0533981" id="Line" stroke-width="13"></path>
+                    <path d="M0,1.33980583 L40.2144096,1.33980583" id="Line" stroke-width="4"></path>
+                    <path d="M0,11.3883495 L40.2144096,11.3883495" id="Line" stroke-width="4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
