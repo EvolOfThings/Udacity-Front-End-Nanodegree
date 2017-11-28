@@ -5,13 +5,7 @@
 #4C442B;
 */
 
-/*.workTitle {
-    background-color: #101313;
-}*/
 
-/*.workExp {
-    background-color: #090909;
-}*/
 
 /*#eduction {
         background-color: #0b0a0ae8;
@@ -109,7 +103,10 @@ header {
     padding-top: 20vh;
     min-height: 30vh;
 /*    background-color: #2a2a3f;*/
+
 }
+
+
 
 .primary {
     position: relative;
@@ -162,20 +159,6 @@ header {
 
 /* DESCRIPTION */
 
-
-.box {
-    height: auto;
-    top: 10px;
-    margin: 0 auto;
-    padding: 10px 15px 30px 15px;
-    position: relative;
-/*    border-radius: 40px;*/
-    -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
-    box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
-}
-
-
 #description{
     min-height: 40vh;
     padding-top: 20vh;
@@ -206,21 +189,72 @@ header {
 .me-list a {
     /*color: rgba(220, 195, 118, 0.35);*/
     color: black;
+    text-decoration: none;
 }
 
-
-.aboutme .me-list a:hover {
-    color: #da0e0e;
+.me-list a:hover {
+    color: red;
 }
 
-.me-list li:not(:first-of-type):before {
+/*about me styling*/
+
+/*.me-list li:not(:first-of-type):before {
     content: "-";
     padding-right: 0.5em;
+    color: red;
+}*/
+
+.me-list li:nth-of-type(2):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: #9400D3;
+}
+
+.me-list li:nth-of-type(3):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: #4B0082;
+}
+
+.me-list li:nth-of-type(4):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: blue;
+}
+
+.me-list li:nth-of-type(5):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: green;
+}
+
+.me-list li:nth-of-type(6):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: #FFFF00;
+}
+
+.me-list li:nth-of-type(7):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: #FF7F00;
+}
+
+.me-list li:nth-of-type(8):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: red;
+}
+
+.me-list li:nth-of-type(9):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: #9400D3;
 }
 
 .me-list li {
     display: inline-block;
-    color: red;
+    color: black;
 }
 
 .key {
@@ -235,6 +269,39 @@ header {
 
 
 /* Skills */
+
+#skills {
+    color: black;
+    background-color: #00000033;
+}
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+/*Transparent background for other browsers*/
+/*.skill-content {
+    position: relative;
+    opacity: 0.99;
+}
+
+.skill-content::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-color: black;
+    z-index: -1;
+}
+*/
 
 hr.primary {
     max-width: 50px;
@@ -261,6 +328,7 @@ hr.primary {
 
 
 /* PORTFOLIO */
+
 
 .project {
     position: relative;
@@ -307,6 +375,7 @@ hr.primary {
 }
 
 /*Small devices (landscape phones, less than 768px)*/
+
 @media (max-width: 767px) {
     .project_caption {
     font-size: 2rem;
@@ -324,8 +393,6 @@ hr.primary {
         font-size: 1.7rem;
     }
 }
-
-
 
 
 .project_link {
@@ -349,9 +416,6 @@ hr.primary {
 .app_name {
     text-align: center;
 }
-/*Media queries for overlay for smaller devices*/
-
-
 
 .projectHeader {
     font-family: "Poiret One", cursive;
@@ -359,7 +423,7 @@ hr.primary {
     text-align: center;
     position: relative;
     font-weight: 600;
-    color: rgba(220, 195, 118, 0.35);
+    color: black;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
@@ -371,7 +435,7 @@ hr.primary {
 }
 
 .app_name a {
-    color: rgba(220, 195, 118, 0.35);
+    color: black;
 }
 .app_name a:hover {
     color: #FDFEFE;
@@ -388,7 +452,6 @@ a:focus {
     padding: 10px 0 10px 0;
 }
 
-
 .btn-resume {
     background-color: white;
     color: black;
@@ -404,9 +467,6 @@ a:focus {
 
 /*Work Experience*/
 
-.section-heading {
-    text-align: center;
-}
 
 .workDuration {
     font-size: 15px;
@@ -422,13 +482,14 @@ a:focus {
 }
 
 .workExp {
-    background-color: #364040;
+    /*background-color: #364040;*/
+    background-color: #090909;
     margin: 12px;
-    display: flex;
 }
 
 .workTitle {
-    background-color: #4d5d5d;
+    /*background-color: #4d5d5d;*/
+    background-color: #101313;
 }
 
 .sas {
@@ -449,7 +510,7 @@ span.getIt {
 }
 
 #education {
-    color: #504830;
+    color: black;
     border-radius: 10px;
 }
 
@@ -489,8 +550,8 @@ span.getIt {
 
 #contact {
     min-height: 20vh;
-    background: black;
-/*    background-image: url(../images/footer-bgd-edited.svg);*/
+/*    background: black;*/
+    background-image: url(../images/background/darkness.png);
 }
 
 .footy {
@@ -589,7 +650,7 @@ i.fa.fa-envelope:hover {
 /*jQuery classes*/
 
 .darker-theme {
-    background-color: #2a2a3f;
+    background-color: #928C98;
 }
 
 /* Media queries */
