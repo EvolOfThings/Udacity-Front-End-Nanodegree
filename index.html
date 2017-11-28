@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CKranky%7CPoiret+One%7CQuicksand%7CVT323" rel="stylesheet">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/cb5c638ad2.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 </head>
 
 <body id="whole-content">
@@ -87,7 +88,7 @@
 
 <!-- Skills images to be added -->
 
-    <section id="skills">
+<!--     <section id="skills">
      <div class="container box">
         <h3 class="skillTitle">
             Skills
@@ -106,12 +107,81 @@
             </ul>
         </div>
      </div>
+    </section> -->
+
+
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-html5-plain colored sr-icons"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-css3-plain colored sr-icons"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-javascript-plain colored sr-icons"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-jquery-plain colored sr-icons"></i>
+                        <h3>jQuery</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-bootstrap-plain colored sr-icons"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-nodejs-plain colored sr-icons"></i>
+                        <h3>Node</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-git-plain colored sr-icons"></i>
+                        <h3>Git</h3>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6 text-center">
+                    <div class="skillBox">
+                        <i class="devicons devicon-jasmine-plain colored sr-icons"></i>
+                        <h3>Jasmine</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="portfolio">
         <div class="container">
             <div class="row project-list portfolio-fluid margin-b-40 ">
                 <h2 class="projectHeader">Featured Work</h2>
+                <hr class="primary">
 
             <!-- Project List -->
             <div class="row project-row">
@@ -252,8 +322,9 @@
             </div>
 
             <div>
-                <div class="container row">
+                <div class="container row text-center">
                     <h2>Work</h2>
+                    <hr class="primary">
 <!-- work1 -->
                     <div class="row workExp">
                         <div class="col-xs-12 col-sm-5 workTitle">
@@ -301,7 +372,7 @@
                         <div class="col-sm-4 margin-b-40">
                             <h4>Frontend Nanodegree <span>Udacity</span></h4>
                             <p>MOOC | Udacity</p>
-                            <a class="link">Remote</a>
+                            <a class="link">Online</a>
                         </div>
                     </div>
                     <div class="row margin-b-40">
@@ -342,7 +413,9 @@
         </section>
         <section class="container footy">
             <article class="foot-post row">
-                <div class="hidden-xs col-sm-4 profilepic "><img class="img-responsive" src="images/profile-pic.jpg"></div>
+                <div class="hidden-xs col-sm-4">
+                    <img class="profilePic img-responsive" src="images/profile-pic.jpg">
+                </div>
                 <div class="list-icons">
                     <h1 class="list-title">Check me out!</h1>
                     <ul class="link-social">
