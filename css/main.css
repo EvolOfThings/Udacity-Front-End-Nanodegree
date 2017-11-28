@@ -1,9 +1,21 @@
 /*#33324F;
 #928C98;
 #6F8EDD;
+#DCC376;
+#4C442B;
 */
 
+/*.workTitle {
+    background-color: #101313;
+}*/
 
+/*.workExp {
+    background-color: #090909;
+}*/
+
+/*#eduction {
+        background-color: #0b0a0ae8;
+}*/
 
 body {
     background: linear-gradient(160deg, #0f403b 10%, #aa7ecd 100%);
@@ -224,45 +236,35 @@ header {
 
 /* Skills */
 
-#skills {
-    font-family: "Quicksand", sans-serif;
-    color: #252d2b;
-    font-size: 20px;
-    min-height: 40vh;
-    padding: 10px 10px 30px 10px;
-    word-spacing: 4px;
-/*    background-color: #2a2a3f;*/
+hr.primary {
+    max-width: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.skillTitle {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 500;
-    color: rgba(220, 195, 118, 0.35);
+.devicons {
+    font-size: 5rem;
 }
 
-.skillSet {
-    text-align: center;
-    list-style-type: none;
-    font-size: 21px;
-    color: rgba(220, 195, 118, 0.35);
+.skillBox {
+    max-width: 400px;
+    margin: 50px auto 0;
 }
 
-.skillSet li {
-    display: inline-block;
+@media screen and (min-width: 992px) {
+.skillBox {
+    margin: 20px auto 0;
+    }
 }
 
-.skillSet li:not(:first-of-type):before {
-    content: "•";
-    padding-right: 0.5em;
-}
+
+
 
 /* PORTFOLIO */
 
 .project {
     position: relative;
 }
-
 
 .project-description {
   position: absolute;
@@ -401,6 +403,11 @@ a:focus {
 
 
 /*Work Experience*/
+
+.section-heading {
+    text-align: center;
+}
+
 .workDuration {
     font-size: 15px;
 }
@@ -547,6 +554,15 @@ i.fa.fa-envelope {
 i.fa.fa-envelope:hover {
     color: #f4fdff;
     transform: scale(1.3);
+}
+
+.profilePic {
+    border-radius: 10%;
+    width: 130px;
+    margin: auto;
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+    opacity: 0.6;
 }
 
 .dnd {
