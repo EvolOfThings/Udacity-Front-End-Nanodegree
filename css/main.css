@@ -5,12 +5,6 @@
 #4C442B;
 */
 
-
-
-/*#eduction {
-        background-color: #0b0a0ae8;
-}*/
-
 body {
     background: linear-gradient(160deg, #0f403b 10%, #aa7ecd 100%);
     /*background: #22313F;*/
@@ -31,9 +25,10 @@ body {
 
 
 nav#navbar {
-    background: /*linear-gradient(to bottom, rgba(58, 60, 56, 0.71) 0%, rgba(8, 8, 8, 0.08) 100%);*/
-    linear-gradient(to bottom, rgba(109, 107, 107, 0.71) 0%, rgba(76, 75, 75, 0.08) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(19, 19, 19, 0.52) 100%);
+
 }
+
 
 #navbar.navbar-fixed-top {
     border-width: 0;
@@ -41,13 +36,14 @@ nav#navbar {
 
 .navbar-inverse .navbar-nav>li>a {
     color: black;
-    font-family: "Kranky";
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
     font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-    color: rgba(220, 195, 118, 0.35) !important;
+    color: black !important;
 }
 
 nav .navbar-brand {
@@ -108,18 +104,9 @@ header {
 
 }
 
-
-
 .primary {
     position: relative;
 }
-
-/*#home img {
-    margin-top: 9vh;
-    margin-bottom: 15px;
-    width: 98%;
-    height: 600px;
-}*/
 
 .myLogo {
     margin-bottom: 15px;
@@ -133,10 +120,10 @@ header {
     width: 100%;
     font-family: "Cutive Mono", monospace;
     font-size: 4.5em;
-/*    font-size: 7vw;*/
     color: black;
-/*    color: #323338;*/
-/*    color: rgba(220, 195, 118, 0.35);*/
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .sub-title {
@@ -185,7 +172,8 @@ header {
 
 .me-list {
     list-style-type: none;
-    font-size: 21px;
+    font-size: 2.2rem;
+    font-family: "Cutive Mono", MONOSPACE;
 }
 
 .me-list a {
@@ -206,52 +194,59 @@ header {
     color: red;
 }*/
 
-.me-list li:nth-of-type(2):before {
+
+.me-list li:nth-of-type(1):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: #9400D3;
 }
 
-.me-list li:nth-of-type(3):before {
+.me-list li:nth-of-type(2):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: #4B0082;
 }
 
-.me-list li:nth-of-type(4):before {
+.me-list li:nth-of-type(3):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: blue;
 }
 
-.me-list li:nth-of-type(5):before {
+.me-list li:nth-of-type(4):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: green;
 }
 
-.me-list li:nth-of-type(6):before {
+.me-list li:nth-of-type(5):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: #FFFF00;
 }
 
-.me-list li:nth-of-type(7):before {
+.me-list li:nth-of-type(6):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: #FF7F00;
 }
 
-.me-list li:nth-of-type(8):before {
+.me-list li:nth-of-type(7):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: red;
 }
 
-.me-list li:nth-of-type(9):before {
+.me-list li:nth-of-type(8):before {
     content: "\00a4";
     padding-right: 0.5em;
     color: #9400D3;
+}
+
+.me-list li:nth-of-type(9):before {
+    content: "\00a4";
+    padding-right: 0.5em;
+    color: #4B0082;
 }
 
 .me-list li {
@@ -277,6 +272,20 @@ header {
     background-color: #00000033;
     padding-bottom: 25px;
     padding-top: 25px;
+    border-radius: 25px;
+}
+
+.skillsHead {
+    font-family: "Poiret One";
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.skillBox h3 {
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.5px;
 }
 
 /* no-gutters Class Rules */
@@ -352,16 +361,17 @@ hr.primary {
 }
 
 .project-description {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  right: 0;
-  height: 100%;
-  overflow: hidden;
-  width: 0;
-  transition: .3s ease;
-  background-color: #000000;
-  opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 0;
+    transition: .3s ease;
+    background-color: #000000;
+    opacity: 0.95;
+    -webkit-font-smoothing: antialiased;
 }
 
 .project:hover .project-description {
@@ -451,14 +461,14 @@ hr.primary {
     text-align: center;
     font-family: "Cutive Mono", monospace;
     font-size: 28px;
-    display: none;
+    /*display: none;*/
 }
 
 .app_name a {
     color: black;
 }
 .app_name a:hover {
-    color: #FDFEFE;
+    color: #2400ff;
 }
 
 a:hover,
@@ -466,6 +476,12 @@ a:focus {
     color: #aab1b3;
     text-decoration: none !important;
 }
+
+.more-projects {
+    font-size: 15px
+}
+
+
 #resume {
     text-align: center;
     margin: 10px;
@@ -473,10 +489,10 @@ a:focus {
 }
 
 .btn-resume {
-    background-color: white;
+    background-color: #9b9b9b;
     color: black;
-    border: 2px solid #e7e7e7;
     font-family: monospace;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -488,13 +504,14 @@ a:focus {
 /*Work Experience*/
 
 .workExperience {
-    background: black;
+    background: #000000eb;
     padding: 15px;
     margin: 10px;
 }
 
 .workHead {
     padding: 15px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .workTitleLine {
@@ -505,6 +522,9 @@ a:focus {
 
 .work-heading {
     line-height: 4.5rem;
+    font-family: "Poiret One", cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 hr.workline {
@@ -517,23 +537,28 @@ hr.workline {
 
 .workLocation {
     font-size: 20px;
+    color: #747474;
 }
 
 .work-left {
     float: right;
-    color: rgba(220, 195, 118, 0.35);
 }
 
 .workExp {
     margin: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-family: monospace;
+    font-weight: 500;
 }
 
-.workTitle {
+.workTitle  {
+    color: #747474;
 }
 
 .sas {
     color: rgba(220, 195, 118, 0.35);
 }
+
 
 
 
@@ -551,11 +576,22 @@ span.getIt {
 #education {
     color: black;
     border-radius: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.for-pun {
+    font-family: "Poiret One", cursive;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.education-row {
+    font-family: monospace;
 }
 
 #education a {
     text-decoration: none;
-    color: #9d9d9d;
+/*    color: #9d9d9d;*/
 }
 
 /* FOOTER */
@@ -624,11 +660,6 @@ span.getIt {
     color: rgba(220, 195, 118, 0.35);
 }
 
-/*.link-social li a:hover {
-    color: #f4fdff;
-}
-*/
-
 
 i.social {
     text-decoration: none;
@@ -694,18 +725,10 @@ i.fa.fa-envelope:hover {
 
 /* Media queries */
 
-/*@media screen and (min-width: 768px) {
-    #navmainbar {
-    float: right;
-    }
-}*/
-
-
 @media screen and (max-width: 767px) {
     }
     span.sub_title {
         font-size: 20px;
-/*        font-weight: 650;*/
         display: block;
         padding: 0;
         margin: 0;
