@@ -273,6 +273,8 @@ header {
 #skills {
     color: black;
     background-color: #00000033;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 /* no-gutters Class Rules */
@@ -329,9 +331,22 @@ hr.primary {
 
 /* PORTFOLIO */
 
+#portfolio {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .project {
     position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    }
 }
 
 .project-description {
@@ -413,25 +428,28 @@ hr.primary {
     color: black;
 }
 
-.app_name {
-    text-align: center;
-}
-
 .projectHeader {
     font-family: "Poiret One", cursive;
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     text-align: center;
     position: relative;
-    font-weight: 600;
-    color: black;
+    font-weight: 500;
+    color: rgba(220, 195, 118, 0.35);
     margin-bottom: 20px;
     padding-bottom: 10px;
+    background-color: black;
+    line-height: 10rem;
+    letter-spacing: 2px;
 }
+
+
+/*set to display none*/
 
 .app_name {
     text-align: center;
     font-family: "Cutive Mono", monospace;
     font-size: 28px;
+    display: none;
 }
 
 .app_name a {
@@ -467,6 +485,29 @@ a:focus {
 
 /*Work Experience*/
 
+.workExperience {
+    background: black;
+    padding: 15px;
+    margin: 10px;
+}
+
+.workHead {
+    padding: 15px;
+}
+
+.workTitleLine {
+    margin-top: 0;
+    max-width: 80px;
+    border-color: #252424;
+}
+
+.work-heading {
+    line-height: 5.5rem;
+}
+
+hr.workline {
+    border-top: 1px solid #252424;
+}
 
 .workDuration {
     font-size: 15px;
@@ -482,14 +523,10 @@ a:focus {
 }
 
 .workExp {
-    /*background-color: #364040;*/
-    background-color: #090909;
     margin: 12px;
 }
 
 .workTitle {
-    /*background-color: #4d5d5d;*/
-    background-color: #101313;
 }
 
 .sas {
@@ -650,7 +687,7 @@ i.fa.fa-envelope:hover {
 /*jQuery classes*/
 
 .darker-theme {
-    background-color: #928C98;
+    background-color: #00000033;
 }
 
 /* Media queries */
