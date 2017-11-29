@@ -379,6 +379,9 @@ hr.primary {
     left: 0;
 }
 
+
+/*display set to none*/
+
 .project_title {
     white-space: nowrap;
     overflow: hidden;
@@ -388,24 +391,26 @@ hr.primary {
     top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: none;                    /*display set to none*/
 }
 
 .project_caption {
     overflow: hidden;
-    color: red;
+    color: white;
     position: absolute;
     white-space: pre-line;
     text-align: center;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 1.7rem;
 }
 
 /*Small devices (landscape phones, less than 768px)*/
 
 @media (max-width: 767px) {
     .project_caption {
-    font-size: 2rem;
+    font-size: 4rem;
     }
 }
 
@@ -417,7 +422,7 @@ hr.primary {
 
 @media (max-width: 767px) {
     .project_link a{
-        font-size: 1.7rem;
+        font-size: 2.7rem;
     }
 }
 
