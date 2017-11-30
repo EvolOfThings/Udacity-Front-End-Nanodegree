@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 function myThing() {
     alert("You are gonna have to wait a little longer to be AMAZED!!!");
     return myThing;

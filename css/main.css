@@ -172,7 +172,7 @@ header {
 
 .me-list {
     list-style-type: none;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-family: "Cutive Mono", MONOSPACE;
 }
 
@@ -328,7 +328,7 @@ hr.primary {
 
 .skillBox {
     max-width: 400px;
-    margin: 40px auto 0;
+    margin: 20px auto 0;
 }
 
 @media screen and (min-width: 992px) {
@@ -547,6 +547,7 @@ hr.workline {
 
 .work-left {
     float: right;
+    font-family: sans-serif;
 }
 
 .workExp {
@@ -592,6 +593,10 @@ span.getIt {
 
 .education-row {
     font-family: monospace;
+}
+
+.mooc {
+    font-size: 15px;
 }
 
 #education a {

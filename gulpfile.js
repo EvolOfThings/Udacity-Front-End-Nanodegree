@@ -1,21 +1,14 @@
-var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var cleanCSS = require('gulp-clean-css');
-var htmlMin = require('gulp-htmlmin');
-var inlineSource = require('gulp-inline-source');
-var imagemin = require('gulp-imagemin');
-var jshint = require('gulp-jshint');
+const gulp = require('gulp');
+const uglify = require('gulp-uglify');
+// const uglify = require('gulp-uglify-js')
+const cleanCSS = require('gulp-clean-css');
+const htmlMin = require('gulp-htmlmin');
+const inlineSource = require('gulp-inline-source');
+const imagemin = require('gulp-imagemin');
+const jshint = require('gulp-jshint');
 // var cache = require('gulp-cache');
 // var responsive = require('gulp-responsive-images');
 
-
-
-
-gulp.task('scripts', function() {
-    gulp.src('js/*.js')
-        .pipe(uglify())
-        .pipe(gulp.dest('dist/js'));
-});
 
 
 gulp.task('styles', function() {
@@ -32,11 +25,61 @@ gulp.task('html', function() {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('images', function() {
-  return gulp.src(['images/*.jpg','images/*.png', 'images/*.jpeg' ])
+
+//Images
+gulp.task('images', () =>
+   gulp.src(['images/*.png', 'images/*.jpg'])
     .pipe(imagemin())
-    .pipe(gulp.dest('dist/images'));
+    .pipe(gulp.dest('dist/images'))
+);
+
+gulp.task('images-logos', () =>
+   gulp.src(['images/logos/*.svg', 'images/logos/*.ico' ])
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/images/logos'))
+);
+
+gulp.task('images-background', () =>
+   gulp.src('images/background/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/images/background'))
+);
+
+
+//scripts
+gulp.task('scripts', function() {
+    return gulp.src(['js/main.js', 'js/jQuery.js'])
+        .pipe(uglify())                                     // TODO: yet to fix the error
+        .pipe(gulp.dest('dist/js'));
 });
+
+//no need to minimize this file
+gulp.task('scripts-1', function() {
+    return gulp.src(['js/bootstrap.min.js'])
+        .pipe(gulp.dest('dist/js'));
+});
+
+
+//adding pdf file w/o any task function
+gulp.task('resume', function(){
+    return gulp.src('resume/resume.pdf')
+    .pipe(gulp.dest('dist/resume'));
+});
+
+
+//Linting
+gulp.task('lint', function() {
+    return gulp.src('js/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
+});
+
+
+//Run gulp
+gulp.task('default',['styles','html', 'images', 'images-logos', 'images-background', 'resume', 'scripts', 'scripts-1', 'lint']);
+
+
+
 
 
 
@@ -56,18 +99,6 @@ gulp.task('images', function() {
 //     .pipe(imagemin())
 //     .pipe(gulp.dest('dist/views/images'));
 // });
-
-
-
-
-gulp.task('lint', function() {
-    return gulp.src('js/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
-gulp.task('default',['scripts','styles','html', 'images' ,'lint']);
-
 
 
 //After setting json pk, and installing gulp globally and locally,
