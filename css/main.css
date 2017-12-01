@@ -8,7 +8,7 @@
 body {
     background: linear-gradient(160deg, #0f403b 10%, #aa7ecd 100%);
     /*background: #22313F;*/
-    background: url(../images/background/doodles.png);
+    background: url(../images/background/doodles.jpg);
  }
 
 /* NAVBAR */
@@ -101,6 +101,7 @@ header {
     padding-top: 20vh;
     min-height: 30vh;
 /*    background-color: #2a2a3f;*/
+    background:  #00000033;
 
 }
 
@@ -174,6 +175,7 @@ header {
     list-style-type: none;
     font-size: 2.3rem;
     font-family: "Cutive Mono", MONOSPACE;
+    padding-left: 0px;
 }
 
 .me-list a {
@@ -270,16 +272,36 @@ header {
 #skills {
     color: black;
     background-color: #00000033;
-    padding-bottom: 25px;
+/*    padding-bottom: 25px;*/
     padding-top: 25px;
-    border-radius: 25px;
 }
 
+
 .skillsHead {
+    margin: auto;
+    text-align: center;
     font-family: "Poiret One";
-    font-size: 34px;
-    font-weight: 600;
+    font-size: 4.5rem;
+    font-weight: 500;
     letter-spacing: 2px;
+    background: black;
+    color: rgba(220, 195, 118, 0.35);
+    line-height: 7rem;
+    padding-bottom: 10px;
+}
+
+
+.skillsHeadLine {
+    margin-top: 0;
+    max-width: 50px;
+    border-color: rgba(220, 195, 118, 0.35);
+}
+
+.box {
+    background: #00000073;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 45px;
 }
 
 .skillBox h3 {
@@ -345,6 +367,7 @@ hr.primary {
 #portfolio {
     padding-top: 25px;
     padding-bottom: 25px;
+    background: #00000033;
 }
 
 .project {
@@ -487,49 +510,33 @@ a:focus {
 }
 
 
-#resume {
-    text-align: center;
-    margin: 10px;
-    padding: 10px 0 10px 0;
-}
-
-.btn-resume {
-    background-color: #9b9b9b;
-    color: black;
-    font-family: monospace;
-    -webkit-font-smoothing: antialiased;
-}
-
-
-.btn-resume:hover {
-    background-color: #737171;
-}
-
-
 /*Work Experience*/
 
 .workExperience {
-    background: #000000eb;
-    padding: 15px;
-    margin: 10px;
-}
-
-.workHead {
-    padding: 15px;
-    -webkit-font-smoothing: antialiased;
+    background: #00000033;
+    padding-top: 15px;
+    padding-bottom: 20px;
+/*    margin: 10px;*/
 }
 
 .workTitleLine {
     margin-top: 0;
-    max-width: 80px;
-    border-color: #252424;
+    max-width: 150px;
+    border-color: rgba(220, 195, 118, 0.35);
 }
 
 .work-heading {
-    line-height: 4.5rem;
     font-family: "Poiret One", cursive;
     font-weight: 600;
-    letter-spacing: 1px;
+    margin: auto;
+    background: black;
+    color: rgba(220, 195, 118, 0.35);
+    padding: 15px;
+    line-height: 5rem;
+    font-size: 4.1rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    -webkit-font-smoothing: antialiased;
 }
 
 hr.workline {
@@ -542,7 +549,7 @@ hr.workline {
 
 .workLocation {
     font-size: 20px;
-    color: #747474;
+    color: #000;
 }
 
 .work-left {
@@ -555,20 +562,36 @@ hr.workline {
     -webkit-font-smoothing: antialiased;
     font-family: monospace;
     font-weight: 500;
+    padding: 15px;
 }
 
 .workTitle  {
-    color: #747474;
+    color: #000;
+}
+.work-details {
+    font-family: sans-serif;
 }
 
 .sas {
-    color: rgba(220, 195, 118, 0.35);
+    color: #ababab;
+    background: #000000c7;
+    float: right;
+    padding: 1px;
+}
+
+.sas:hover {
+    color: black;
+    background: white;
 }
 
 
 
 
 /*Background*/
+
+.education-section {
+    background: #00000033;
+}
 
 .margin-b-40{
     margin-bottom: 40px !important;
@@ -583,12 +606,21 @@ span.getIt {
     color: black;
     border-radius: 10px;
     -webkit-font-smoothing: antialiased;
+    padding: 10px;
 }
 
 .for-pun {
     font-family: "Poiret One", cursive;
     font-weight: 600;
+    text-align: center;
     letter-spacing: 3px;
+    background: black;
+    color: rgba(220, 195, 118, 0.35);
+    line-height: 5rem;
+    font-size: 4.1rem;
+    padding: 15px;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
 }
 
 .education-row {
@@ -603,6 +635,33 @@ span.getIt {
     text-decoration: none;
 /*    color: #9d9d9d;*/
 }
+
+
+/*Resume*/
+
+#resume {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 0 10px 0;
+}
+
+#resume-section {
+    background: #00000033;
+}
+
+.btn-resume {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-resume:hover {
+    background-color: black;
+    color: white !important;
+}
+
+
 
 /* FOOTER */
 
@@ -730,7 +789,7 @@ i.fa.fa-envelope:hover {
 /*jQuery classes*/
 
 .darker-theme {
-    background-color: #00000033;
+    background-color: #0000006e;
 }
 
 /* Media queries */
