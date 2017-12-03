@@ -24,7 +24,7 @@ $('.education-section').hover(
 
 // on hover on education add i tag to span class: pun to display
 
-let pun = '<span class="getIt"> (Get it?) <i class="em em-wink"></i></span>';
+let pun = '<span class="getIt"> (Get it?) </span>';
 
 
 $('.education-section').hover(
