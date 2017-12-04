@@ -34,13 +34,13 @@ gulp.task('images', () =>
 );
 
 gulp.task('images-logos', () =>
-   gulp.src(['images/logos/*.svg', 'images/logos/*.ico' ])
+   gulp.src(['images/logos/*.svg', 'images/logos/*.ico'])
     .pipe(imagemin())
     .pipe(gulp.dest('dist/images/logos'))
 );
 
 gulp.task('images-background', () =>
-   gulp.src('images/background/*')
+   gulp.src(['images/background/*.jpg', 'images/background/*.png'])
     .pipe(imagemin())
     .pipe(gulp.dest('dist/images/background'))
 );
@@ -49,7 +49,7 @@ gulp.task('images-background', () =>
 //scripts
 gulp.task('scripts', function() {
     return gulp.src(['js/main.js', 'js/jQuery.js'])
-        .pipe(uglify())                                     // TODO: yet to fix the error
+        // .pipe(uglify())                                     // TODO: yet to fix the error
         .pipe(gulp.dest('dist/js'));
 });
 
