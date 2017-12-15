@@ -14,7 +14,7 @@ $('.key').hover(
 
 // Hovering effect for education
 
-$('#education').hover(
+$('.education-section').hover(
   function() {
     $(this).addClass('darker-theme');
   }, function() {
@@ -24,10 +24,10 @@ $('#education').hover(
 
 // on hover on education add i tag to span class: pun to display
 
-let pun = '<span class="getIt"> (Get it?) <i class="em em-wink"></i></span>';
+let pun = '<span class="getIt"> (Get it?) </span>';
 
 
-$('#education').hover(
+$('.education-section').hover(
   function() {
     $(this).find('.for-pun').append(pun);
   }, function() {
