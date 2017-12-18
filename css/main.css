@@ -7,7 +7,6 @@
 
 
 body {
-    background: url(../images/background/doodles.jpg); /*fall background*/
     background: #acb6e5; /*fall back color*/
     background: linear-gradient(to right, #acb6e5, #86fde8);
  }
